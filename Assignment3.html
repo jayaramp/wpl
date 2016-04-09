@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="This is Web Programming - Assignment 3">
+    <meta name="author" content="Jayaram">
+    <link rel="icon" href="icon.ico">
+
+    <title>Portfolio of Jayaram</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" 
+	integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Home</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#education">Education</a></li>
+                <li><a href="#experience">Work Experience</a></li>
+				<li><a href="#projects">Projects</a></li>
+                <li><a href="form.html">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img class="first-slide" src="Education.jpg" alt="First slide" href="#education">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1 id="eduh1">EDUCATION</h1>
+              <p id="edup">Master's student at University of Texas at Dallas, majoring in Computer Science and will be graduating in May 2017.</p>
+              <p><a class="btn btn-lg btn-primary" href="#education" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="second-slide" src="other5.jpg" alt="Second slide" href="#experience">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1 class="workex">PROFESSIONAL EXPERIENCE</h1>
+              <p class="workex">Senior Software Engineer at Western Digital. Worked on cutting edge technologies in storage domain. Worked as a Developer in SSD device drivers for Windows. Well experienced in C.</p>
+              <p><a class="btn btn-lg btn-primary" href="#experience" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="third-slide" src="projects5.jpg" alt="Third slide" href="#projects">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1 class="pro">PROJECTS</h1>
+              <p class="pro">The Twitter Analyzer: Clustering of tweets by utilizing Jaccard Distance metric and K-means clustering algorithm.</p>
+              <p><a class="btn btn-lg btn-primary" href="#projects" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- /.carousel -->
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="img-circle" src="other7.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>Education</h2>
+          <p>Master's student at University of Texas at Dallas, majoring in Computer Science and will be graduating in May 2017. Bachelor's from RV College of Engineering, majored in Compputer Science.</p>
+          <p><a class="btn btn-default" href="#education" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="workexp3.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>Work Experience</h2>
+          <p>Senior Software Engineer at HGST - a WD company from Oct 2013 - Jul 2015 and Member of Technical Staff at Virident Systems, Bangalore, India from Jul 2011 - Sep 2013.</p>
+          <p><a class="btn btn-default" href="#experience" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="projects7.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>Projects</h2>
+          <p>The Twitter Analyzer, Security in Audio Steganography, Controlling PC from Mobile Phone, Taxi Service System, Iterative Dichotomiser(ID3) Decision Tree, Network Management System.</p>
+          <p><a class="btn btn-default" href="#projects" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette" id="education">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Education... <span class="text-muted">If you can read this, thank a Teacher.</span></h2>
+		   <h3> Master of Science in Computer Science, University of Texas at Dallas</h3><h4>Expected Graduation: May 2017</h4>
+		   <h4>GPA: 3.89</h4>
+		   <h3> Bachelor of Engineering in Computer Science, RV College of Engineering, Bangalore</h3><h4>Graduated: May 2011</h4>
+		   <h4>GPA: 9.37/10</h4>
+		  
+        </div>
+        
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette" id="experience">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">Work Experience... <span class="text-muted">Western Digital and Virident.</span></h2>
+		  <h3> Senior Software Engineer, HGST - a WD company, Bangalore, India </h3><h4>Oct 2013 - Jul 2015</h4>
+          <p class="lead">Worked on cutting edge technologies in storage domain. Worked as a Developer in SSD device drivers for Windows. Well experienced in C.</p>
+		 
+		  <h3> Member of Technical Staff, Virident Systems, Bangalore, India </h3><h4>Jul 2011 - Sep 2015</h4>
+          <p class="lead">My role was to implement module which improves the performance of the drive. 
+Also worked on Firmware driver to write RTL file to the FlashMAX drive and designed application to write firmware on to the drive.
+Worked on Kernel space in writing Windows device drivers.</p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette" id="projects">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Projects... <span class="text-muted">Belive in your design.</span></h2>
+		  <h3>The Twitter Analyzer</h3>
+          <p class="lead">Clustering of tweets by utilizing Jaccard Distance metric and K-means clustering algorithm
+Twitter provides a service for posting short messages. In practice, many of the tweets are very similar to each other and can be clustered together. 
+By clustering similar tweets together, we can generate a more concise and organized representation of the raw tweets, which will be very useful for many 
+Twitter-based applications (e.g., truth discovery, trend analysis, search ranking, etc.)
+Technologies used: <EM>JSON parsing, Python, K-Means, Jaccard Distance.</EM></p>
+		  <h3>Security in Audio Steganography</h3>
+          <p class="lead">This is a project developed in Java to provide security for Audio Steganography using Key Distribution Center(KDC). The key generation and distribution is done by KDC. A paper published on International Journal. 
+The project was written in Java. Group consisted of four people. I was responsible for creating front end and developing the main feature of the project - Security
+Implemented most secure message transfer using audio files, where message is encoded inside audio file and transferred across the network.
+Secured S (highest grade) for this project and published a research paper on same topic in international journal.</p>
+		  <h3>Controlling PC from Mobile Phone (PC REMOTE)</h3>
+          <p class="lead">A very innovative project implemented in Java by a group of two people.</br>
+Mobile is used as a remote to control PC.</br>
+Our proposed system can turn off, log off, restart and browse the PC through mobile phone. All these operations are practically implemented without using mouse and keyboard.</br>
+Published a paper in National Conference.</br></p>
+		  <h3>Taxi Service System</h3>
+          <p class="lead">"Taxi Service System" - A database project undertaken in Fall 2015. The system works similar to most real time taxi service systems. 
+Many real time features are implemented such as booking/cancelling a ride, rating the driver after the ride, 
+calculating bill based on car type, car fare, city fare and distance traveled, managing driver and car details. 
+PL/SQL procedures and triggers have been implemented to do most of the updates automatically.</p>
+		  <p><h3>Other Projects</h3>
+		  <p class="lead">Iterative Dichotomiser(ID3) Decision Tree</br>
+Implement and find accuracy between all classifiers</br>
+Network Management System</br>
+Craps Game</br>
+Airline Reservation Systems</br></p></p>
+<p id="hide1" class="lead">Company projects: are TachIOn, FlashMAX I/II/III and Virident Solutions.</p>
+
+<h3> <b>Assignment 3 other events demonstration</b> </h3>
+<p>Click the below button to hide, show and toggle the above Company projects</p>
+<button id="hide">Hide</button>
+<button id="show">Show</button>
+<button id="toggle">Toggle</button>
+        </div>
+      </div>
+<br /><br />	  
+
+<h3>DblClick, Mouseenter and Moueseleave demonstration</h3><br />
+	  <img id="image" src="other1.jpg" alt="Image" height="300" width="200">
+	  
+<p>Click on the below buttons to demonstrate FadeIn, FadeOut, FadeTo and FadeToggle.</p>
+<button id="fadeout">Fade Out</button>
+<button id="fadein">Fade In</button>
+<button id="fadeto">Fade To</button>
+<button id="fadetoggle">Fade Toggle</button><br /><br />
+<p> Mouseover on image to demonstrate mouseenter and mouseleave functionalities</p><br />
+
+<h3>Keydown demonstartion examples 1 and 2</h3><br />
+<p>
+Enter your name: <input id="keyboard" type="text">
+
+<p>Enter your name in the input field above. It will change background color, text color and make text UPPERCASE on keydown and keyup.</p></p>
+<br /><br />
+
+<p>Enter something in the below text box. It will animate the below div element</p></p>
+<h4>Enter your name: <input id="keyboard1" type="text"></h4>
+<div id="animatediv" style="background:#98bf21;height:100px;width:100px;position:absolute;"></div><br /> <br /> <br /> <br /><br /> 
+
+
+<h3>Keypress demonstartion</h3><br />
+	  <div id="div1" style="width:80px;height:80px;display:none;background-color:red;"></div>
+	<div id="div2" style="width:80px;height:80px;display:none;background-color:green;"></div>
+	<div id="div3" style="width:80px;height:80px;display:none;background-color:blue;"></div>
+	
+	<p>Press any key in the below text box and see fading events happening...</p>
+	Enter your name: <input id="fadeinput" type="text">
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2016 Jayaram. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="Assignment3.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" 
+	integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	
+  </body>
+</html>
